@@ -1,6 +1,7 @@
 Package: praise
 Title: Praise Users
-Version: 1.0.0
+Encoding: UTF-8
+Version: 1.0.1
 Author: Gabor Csardi, Sindre Sorhus
 Maintainer: Gabor Csardi <csardi.gabor@gmail.com>
 Description: Build friendly R packages that
@@ -20,4 +21,4 @@ Collate:
     'smiley.R'
     'rpackage.R'
     'package.R'
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 7.1.1

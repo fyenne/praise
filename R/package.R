@@ -28,9 +28,9 @@ NULL
 #' 
 #' @include adjective.R adverb.R exclamation.R rpackage.R smiley.R verb.R
 #' @export
-
+library(stringi)
 praise_parts <- list(
-  adjective = adjective,
+  adjective = stri_unescape_unicode(adjective),
   adverb = adverb,
   adverb_manner = adverb_manner,
   created = created,
@@ -57,8 +57,9 @@ praise_parts <- list(
 #'
 #' ## All upper case
 #' praise("${EXCLAMATION}! You have done this ${adverb_manner}!")
+pre_text = stri_unescape_unicode("\\u4f60\\u4ed6\\u5a18\\u7684\\u771f\\u662f")
 
-praise <- function(template = "You are ${adjective}!") {
+praise <- function(template = paste0(pre_text," ${adjective}!")) {
   while (is_template(template)) {
     template <- replace_one_template(template)
   }

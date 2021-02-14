@@ -43,7 +43,7 @@ adjective <- c(
   "\u7f8e\u5999\u7684",
   "\u82b1\u54e8",
   "\u592a\u68d2\u4e86",
-  "niubi!",
+  ",fantabulosus",
   "\u5947\u5e7b",
   "\u8ff7\u4eba\u7684",
   "\u597d",
@@ -100,7 +100,7 @@ adjective <- c(
   "\u6ea2\u4ef7",
   "\u65e0\u4ef7",
   "\u795e\u4e00\u6837\u7684",
-  "yyds",
+  ",primo",
   "\u9002\u5f53",
   "\u96f7\u8fbe",
   "\u6fc0\u8fdb",
@@ -159,4 +159,3 @@ adjective <- c(
 )
 # library(tidyverse)
 # (stri_escape_unicode(adjective) %>% data.frame)[,1] %>% write.csv(",transfed1.txt",)
-# stri_escape_unicode("你他娘的真是")
