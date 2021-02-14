@@ -22,3 +22,5 @@ Collate:
     'rpackage.R'
     'package.R'
 RoxygenNote: 7.1.1
+Imports:
+	stringi

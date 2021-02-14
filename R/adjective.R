@@ -160,3 +160,4 @@ adjective <- c(
 # library(tidyverse)
 # (stri_escape_unicode(adjective) %>% data.frame)[,1] %>% write.csv(",transfed1.txt",)
 # stri_escape_unicode("你他娘的真是")
+pre_text = stringi::stri_unescape_unicode("\\u4f60\\u4ed6\\u5a18\\u7684\\u771f\\u662f")
