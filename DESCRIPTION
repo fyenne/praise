@@ -8,8 +8,8 @@ Description: Build friendly R packages that
     praise their users if they have done something
     good, or they just need it to feel better.
 License: MIT + file LICENSE
-LazyData: true
-URL: https://github.com/rladies/praise
+LazyData: false
+URL: https://github.com/fyenne/praise
 BugReports: https://github.com/rladies/praise/issues
 Suggests:
     testthat

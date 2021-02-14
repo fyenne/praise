@@ -60,7 +60,7 @@ praise_parts <- list(
 #' ## All upper case
 #' praise("${EXCLAMATION}! You have done this ${adverb_manner}!")
 
-
+# usethis::use_package("stringi")
 praise <- function(template = paste0(pre_text," ${adjective}!")) {
   while (is_template(template)) {
     template <- replace_one_template(template)
