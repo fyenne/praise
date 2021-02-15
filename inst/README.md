@@ -19,7 +19,13 @@ done something good, or they just need it to feel better.
 
 
 ```r
-devtools::install_github("gaborcsardi/praise")
+# fyenne add: this project is forked from:
+# devtools::install_github("gaborcsardi/praise")
+# this is a chinese version of praise, please imagine 李云龙将军的语气。
+# download address:
+devtools::install_github(
+  "https://github.com/fyenne/praise/releases/download/v1.0.2/praise_1.0.2.tar.gz",
+  type = "source")
 ```
 
 ## Usage
